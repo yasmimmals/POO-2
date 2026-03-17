@@ -50,6 +50,13 @@ public class Pedido {
     }
 
     // calcular o total geral do pedido
+    public void calcularTotal(){
+        float total = 0;
+        for(ItemPedido aux: this.itensPedido){
+            total += aux.getQtde() * aux.getProduto().getPreco();
+        }
+        System.out.println("Valor total do pedido " + total);
+    }
     @Override
     public String toString() {
         return "Pedido{" +
