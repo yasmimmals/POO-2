@@ -1,3 +1,5 @@
+package SalaDeAula;
+
 // Objeto - Parte
 public class Cliente{
     private int id;
@@ -47,7 +49,7 @@ public class Cliente{
 
     @Override
     public String toString() {
-        return "Cliente{" +
+        return "SalaDeAula.Cliente{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", cpf='" + cpf + '\'' +

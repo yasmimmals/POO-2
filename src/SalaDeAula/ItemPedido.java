@@ -1,3 +1,5 @@
+package SalaDeAula;
+
 public class ItemPedido {
     private int id;
     private int qtde;
@@ -38,7 +40,7 @@ public class ItemPedido {
 
     @Override
     public String toString() {
-        return "\nItemPedido{" +
+        return "\nSalaDeAula.ItemPedido{" +
                 "id=" + id +
                 ", qtde=" + qtde +
                 ", produto=" + produto +

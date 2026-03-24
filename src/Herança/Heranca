@@ -1,0 +1,18 @@
+Associação Generelização - Especialização
+Generealização é a super classe, classe pai
+especialização - é a subclasse, classe filha
+Podemos ter uma classe chamada Desenvolvedor - superclasse, classe pai
+e subclasses de Junior, Pleno e Senior , subclasse - classe filhas
+temos a pergunta é um ? sim
+o grande beneficio é a reusabilidade de codigo-fonte e facilita a organização hierarquica das classes
+classes filhas herdam várivaies e métodos das classes pai
+sempre que encontramos um + no diagrama é visibilidade pública
+sempre que encontramos um - no dragrama é a visibilidade privada
+sempre que encontramos um # no diagrama é a visibilidade protegida, ela é publica e privada ao menos tempo
+ela é publica para as subclasses/ filhos e privada para as demais classes
+overrinf - subclasses personalizam o comportamento dos métodos herdados, tipo as vezes não me interessa uma coisa que eu herdei do meu pai
+herança simples- classe filha tem/herda apenas um unico pai
+herança múltipla - classe filha tem/herda dois ou mais pais
+herança com vários niveis hierárquicos - temos níveis
+HANDS ON
+

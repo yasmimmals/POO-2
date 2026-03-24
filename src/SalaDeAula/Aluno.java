@@ -1,3 +1,5 @@
+package SalaDeAula;
+
 public class Aluno {
     private int id;
     private String nome;
@@ -15,6 +17,6 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return String.format("Aluno [ID: %d, Nome: %s, RA: %s, Curso: %s]", id, nome, ra, curso);
+        return String.format("SalaDeAula.Aluno [ID: %d, Nome: %s, RA: %s, Curso: %s]", id, nome, ra, curso);
     }
 }

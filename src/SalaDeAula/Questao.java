@@ -1,3 +1,5 @@
+package SalaDeAula;
+
 public class Questao {
     private int numero;
     private String enunciado;

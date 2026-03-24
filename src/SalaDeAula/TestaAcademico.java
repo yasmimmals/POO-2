@@ -1,3 +1,8 @@
+package SalaDeAula;
+
+import SalaDeAula.Aluno;
+import SalaDeAula.Disciplina;
+
 public class TestaAcademico {
     public static void main(String[] args) {
         Aluno a1 = new Aluno(1, "Ana Silva", "RA123", "Engenharia");

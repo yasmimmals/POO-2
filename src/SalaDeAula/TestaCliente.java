@@ -1,4 +1,9 @@
-import javax.xml.crypto.Data;
+package SalaDeAula;
+
+import SalaDeAula.Cliente;
+import SalaDeAula.Pedido;
+import SalaDeAula.Produto;
+
 import java.util.Date;
 
 public class TestaCliente {

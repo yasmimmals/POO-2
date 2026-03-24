@@ -19,6 +19,6 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente: " + nome;
+        return "SalaDeAula.Cliente: " + nome;
     }
 }

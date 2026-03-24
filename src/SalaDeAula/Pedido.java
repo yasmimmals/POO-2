@@ -1,3 +1,8 @@
+package SalaDeAula;
+
+import SalaDeAula.Cliente;
+import SalaDeAula.ItemPedido;
+
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -59,11 +64,11 @@ public class Pedido {
     }
     @Override
     public String toString() {
-        return "Pedido{" +
+        return "SalaDeAula.Pedido{" +
                 "id=" + id +
                 ", data=" + data +
                 ", cliente=\n" + cliente +
-                ", Itens do Pedido=\n" + itensPedido +
+                ", Itens do SalaDeAula.Pedido=\n" + itensPedido +
                 '}';
     }
 }

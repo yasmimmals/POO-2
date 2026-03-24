@@ -1,3 +1,5 @@
+package SalaDeAula;
+
 public class Produto {
     private int id;
     private String nome, descricao;
@@ -47,7 +49,7 @@ public class Produto {
 
     @Override
     public String toString() {
-        return "Produto{" +
+        return "SalaDeAula.Produto{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", descricao='" + descricao + '\'' +

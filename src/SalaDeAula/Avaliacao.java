@@ -1,3 +1,5 @@
+package SalaDeAula;
+
 import java.util.ArrayList;
 
 public class Avaliacao {
