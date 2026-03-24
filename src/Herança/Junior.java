@@ -1,6 +1,6 @@
 package Herança;
 
-public class Junior extends Desenvolvedor {
+public class Junior extends Desenvolvedor { // extends é para dizer que é filho
     private String mentor;
     public Junior(){
         super(); // chamando o construtor da superclasse
@@ -8,5 +8,24 @@ public class Junior extends Desenvolvedor {
     public Junior(String nome, String linguagem, float salarioBase, String mentor){
         super(nome, linguagem, salarioBase);
         this.mentor = mentor;
+    }
+
+    public String getMentor() {
+        return mentor;
+    }
+
+    public void setMentor(String mentor) {
+        this.mentor = mentor;
+    }
+
+    @Override
+    public String toString() {
+        return "Junior{" +
+                super.toString() +
+                "mentor= '" + this.mentor ;
+    }
+    @Override
+    public void codar(){
+        System.out.println("Junior desenvolvendo código sob a mentoria de " + this.mentor);
     }
 }
