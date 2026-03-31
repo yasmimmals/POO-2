@@ -1,0 +1,6 @@
+CLASSE ABSTRATA
+- Não pode ser instanciada
+- Serve de modelo para as filhas
+- Pode possuir métodos abstratos(não pode ser implementado)
+- Métodos abstratos são implementados nas filhas (obrigatóriamente)
+- Uma classe abstrata é um método que aparece em todas as filhas
