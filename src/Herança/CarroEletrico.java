@@ -29,7 +29,7 @@ public class CarroEletrico extends Veiculo{
     }
     @Override
     public void mover() {
-        System.out.println("Carro elétrico movendo-se silenciosamente.");
+        System.out.println("Carro elétrico movendo-se silenciosamente. Autonomia: " + this.autonomiaBateria + "Km.");
     }
     @Override
     public void abastecer() {
