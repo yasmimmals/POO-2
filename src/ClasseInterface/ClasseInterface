@@ -1,0 +1,15 @@
+métodos comuns - implementado na classe
+métodos abstratos - implementado nos filhos
+
+O que as classes comuns tem? Elas possuem apenas métodos comuns (construtor, gettters e setters, toString)
+Em herança aprendemos classes abstratas, elas possuem métodos comuns e métodos abstratos
+Classe interface o que é? Elas possuem apenas métodos abstratados, costumamos dizer que ela estabelece um contrato conosco
+com isso podemos ter a SIMULAÇÃO de uma interface múltipla
+Aqui estão alguns conceitos:
+as interfaces fornece um nivel de abstração, permitindo que vc defina um conjunto de métodos sem especidifcar a implementação real.
+ela é declarada usando a palavra chave interface
+uma classe pode implementar uma ou mais interfaces usando a palavra-chave implements
+as interfaces permitem o poliformismo, isso significa que você pode tratar objetos de diferentes classes que implementam a mesma interface de forma uniforme.
+as interfaces promovem o principio de segregação de interface, que afirma que "nenhuma classe deve ser forçada a implementar métodos que ela não usa". Em outras palavras, é mlehor ter interfaces mais especificas e coesas do que interfaces amplas e generalizadas
+interfaces também são fundamentais para aplicar o pricipio de inversão de depêndencia, que incentiva o uso de abstrações em vez de classes concretas. Isso ajuda a desacoplar componentes do sistema, facilitando a manutenção
+
